@@ -1,7 +1,7 @@
 
 function removeNaN(numbers) {
-  const numbers_new = numbers.filter(value => !Number.isNaN(value));
-  return numbers_new;
+  return numbers.filter(value => !Number.isNaN(value));
+  
 }
 
 function average(numbers) {
